@@ -1,5 +1,44 @@
+# Encryption keys - NEVER commit these!
 keys/
+*.key
+
+# Encrypted and decrypted files
 *.enc
 *.dec
+data/files/*
+data/encrypted/*
+data/decrypted/*
+data/metadata/*
+
+# Keep directory structure
+!data/files/.gitkeep
+!data/encrypted/.gitkeep
+!data/decrypted/.gitkeep
+!data/metadata/.gitkeep
+
+# Python
 .venv/
+venv/
+env/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
