@@ -1,0 +1,5 @@
+keys/
+*.enc
+*.dec
+.venv/
+__pycache__/
